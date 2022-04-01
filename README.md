@@ -1,4 +1,4 @@
-# Aplikasi Pengadaan Barang<br/>
+# Aplikasi Waste Monitoring System<br/>
 ## Free Source Code<br/>
 
 ### Aplikasi ini dibuat menggunakan
@@ -9,5 +9,5 @@
 - Chart.js
 
 ### Keterangan <br/>
-Database : <code>ci_barang</code><br/>
+Database : <code>ci_wns</code><br/>
 <br/>
