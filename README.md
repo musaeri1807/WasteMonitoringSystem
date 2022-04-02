@@ -9,5 +9,5 @@
 - Chart.js
 
 ### Keterangan <br/>
-Database : <code>ci_wns</code><br/>
+Database : <code>ci_wms</code><br/>
 <br/>
