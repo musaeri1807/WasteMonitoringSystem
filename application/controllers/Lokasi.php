@@ -16,7 +16,7 @@ class Lokasi extends CI_Controller
     {
         $data['title'] = "Lokasi";
         $data['lokasi'] = $this->admin->getLokasi();
-        $this->template->load('templates/dashboard', 'Lokasi/data', $data);
+        $this->template->load('templates/dashboard', 'lokasi/data', $data);
     }
 
     private function _validasi()
