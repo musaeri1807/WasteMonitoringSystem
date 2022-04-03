@@ -109,7 +109,7 @@ class Laporan extends CI_Controller
         $pdf->Cell(55, 7, 'Nama Sampah', 1, 0, 'C');
         $pdf->Cell(35, 7, 'Lokasi', 1, 0, 'C');
         $pdf->Cell(35, 7, 'Kategori', 1, 0, 'C');
-        if($table=='barang_masuk'){
+        if($table=='Sampah Masuk'){
             $pdf->Cell(30, 7, 'Jumlah Masuk', 1, 0, 'C');
 
         }else{
