@@ -16,7 +16,7 @@ class Barang extends CI_Controller
     {
         $data['title'] = "Sampah";
         $data['barang'] = $this->admin->getBarang(); 
-        $this->template->load('templates/dashboard', 'Barang/data', $data);
+        $this->template->load('templates/dashboard', 'barang/data', $data);
     }
 
     private function _validasi()
