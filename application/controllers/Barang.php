@@ -67,7 +67,7 @@ class Barang extends CI_Controller
             $data['kategori'] = $this->admin->get('kategori');
             $data['satuan'] = $this->admin->get('satuan');
             $data['barang'] = $this->admin->get('barang', ['id_barang' => $id]);
-            $this->template->load('templates/dashboard', 'Barang/edit', $data);
+            $this->template->load('templates/dashboard', 'barang/edit', $data);
         } else {
             $input = $this->input->post(null, true);
             $update = $this->admin->update('barang', 'id_barang', $id, $input);
