@@ -28,7 +28,7 @@
                     <div class="col-md-9">
                         <input value="<?= set_value('nama_barang', $barang['nama_barang']); ?>" name="nama_barang" id="nama_barang" type="text" class="form-control" placeholder="Nama Barang...">
                         <?= form_error('nama_barang', '<small class="text-danger">', '</small>'); ?>
-                        <input value="<?= set_value('stok', $barang['stok']); ?>" name="stok" id="stok" type="text" class="form-control" readonly>
+                        <input value="<?= set_value('stok', $barang['stok']); ?>" name="stok" id="stok" type="text" class="form-control" >
                         
                     </div>
                 </div>
