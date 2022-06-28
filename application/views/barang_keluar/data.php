@@ -8,7 +8,7 @@
                 </h4>
             </div>
             <div class="col-auto">
-                <a href="<?= base_url('barangkeluar/add') ?>" class="btn btn-sm btn-primary btn-icon-split">
+                <a href="<?= base_url('Barangkeluar/add') ?>" class="btn btn-sm btn-primary btn-icon-split">
                     <span class="icon">
                         <i class="fa fa-plus"></i>
                     </span>
@@ -28,7 +28,7 @@
                     <th>Tanggal Keluar</th>
                     <th>Lokasi</th>
                     <th>Kategori</th>
-                    <th>Nama Sampah</th>                    
+                    <th>Nama Sampah</th>
                     <th>Jumlah Keluar</th>
                     <th>Petugas</th>
                     <th>Hapus</th>
@@ -39,7 +39,7 @@
                 $no = 1;
                 if ($barangkeluar) :
                     foreach ($barangkeluar as $bk) :
-                        ?>
+                ?>
                         <tr>
                             <td><?= $no++; ?></td>
                             <td><?= $bk['id_barang_keluar']; ?></td>
@@ -56,7 +56,7 @@
                     <?php endforeach; ?>
                 <?php else : ?>
                     <tr>
-                        <td colspan="7" class="text-center">
+                        <td colspan="9" class="text-center">
                             Data Kosong
                         </td>
                     </tr>
