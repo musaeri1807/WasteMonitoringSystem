@@ -11,7 +11,7 @@
                     <div class="col-lg-6">
                         <div class="p-5">
                             <div class="text-center mb-4">
-                                <h1 class="h4 text-gray-900">Waste Monitoring System</h1>
+                                <h1 class="h4 text-gray-900">SIDOMUKTI LM</h1>
                                 <span class="text-muted">Login</span>
                             </div>
                             <?= $this->session->flashdata('pesan'); ?>

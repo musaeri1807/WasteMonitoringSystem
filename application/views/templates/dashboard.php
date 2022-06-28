@@ -46,7 +46,7 @@
                 <div class="sidebar-brand-icon">
                     <i class="fas fa-solid fa-recycle"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3"> Waste Monitoring System</div>
+                <div class="sidebar-brand-text mx-3">SIDOMUKTI LM</div>
             </a>
 
             <!-- Nav Item - Dashboard -->
